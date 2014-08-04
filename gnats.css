@@ -1,0 +1,239 @@
+/* Typography */
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:700);
+
+body {
+	min-width: 975px;
+	margin: 0px;
+}
+
+body, tt {
+	font-family: Arial, sans-serif;
+}
+
+b {
+	font-size: 14px;
+	font-weight: normal !important;
+	color: #707070;
+}
+
+hr {
+	display: none;
+}
+
+/* Nav/Header */
+
+
+/* Database title, User, Access, Company Label */
+table tbody tr td table tbody tr, table tbody tr td table tbody tr td span, table tbody tr td table tbody tr td a {
+	background-color: white !important;
+	font-family: inherit !important;
+	color: #000 !important;
+}
+
+/* NAV */
+
+/* Buttons */
+
+table tbody tr td table tbody tr td a.create_button {
+	margin-left: 25px;
+	padding: 4px 10px !important;
+	border-radius: 3px;
+	background:linear-gradient(to bottom, #E51937, #C6162F);
+	color: #FFF !important;
+	font-weight: bold !important;
+	font-size: 14px !important;
+}
+
+table tbody tr td table tbody tr td a.create_button:hover {
+	background:linear-gradient(to bottom, #FA2E4C, #C6162F);
+}
+
+
+
+table tbody tr td[colspan="2"] table tbody tr td a:hover {
+	background-color: #C6162F !important;
+	color: white !important;
+}
+
+table tbody tr td[colspan="2"] table tbody tr td a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px !important;
+	text-transform: lowercase;
+}
+
+table tbody tr td[colspan="2"] table tbody tr td a[href^="/index"]:first-letter {
+	text-transform: uppercase;
+}
+
+/* Search form */
+table tbody tr td[colspan="2"] table tbody tr td {
+	padding-right: 0px;
+}
+table tbody tr td[colspan="2"] table tbody tr td table tbody tr td form {
+	text-align: right;
+}
+table tbody tr td[colspan="2"] table tbody tr td table tbody tr td form input[type="text"] {
+	border-radius: 5em;
+	background-color: #FAFAFA;
+	font-size: 12px;
+}
+
+
+table tbody tr td[colspan="2"] table {
+	width: 100%;
+}
+
+table tbody tr td[colspan="2"] table {
+	border-bottom: 1px solid black !important;
+}
+
+table tbody tr td[colspan="2"] table tbody tr td table {
+	border: hidden !important;
+}
+
+
+table tbody tr td[colspan="2"] table, table tbody tr td[colspan="2"] table tbody tr td {
+	border: hidden;
+}
+
+
+/* VIEW/EDIT*/
+
+/* Buttons */
+
+form span input[value='edit'], form span input[value='view audit-trail'], form span a[href^='mailto:'], td form input[value='view'], td form input[value='edit'], td form input[value='change database'], td form input[value='create'], td form input[value='query'], td form input[value='advanced query'], td form input[value='logout'], td form input[value='help'], p input[value='edit'], p input[value='view audit-trail'], p a[href^='mailto:'], form input[value='submit query'] {
+	background: linear-gradient(to bottom,#FFF 0,#F2F2F2 100%);
+	border-radius: 2px;
+	border: 1px solid #CCC;
+	padding: 4px 10px;
+	color: #333;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+form span input[value='edit']:hover, form span input[value='view audit-trail']:hover, form span a[href^='mailto:']:hover, td form input[value='view']:hover, td form input[value='edit']:hover, td form input[value='change database']:hover, td form input[value='create']:hover, td form input[value='query']:hover, td form input[value='advanced query']:hover, td form input[value='logout']:hover, td form input[value='help']:hover, p input[value='edit']:hover, p input[value='view audit-trail']:hover, p a[href^='mailto:']:hover, form input[value='submit query']:hover {
+	border:1px solid #999;
+	color: #000;
+	background: linear-gradient(to bottom,#FFF 0,#F7F7F7 100%);
+}
+
+
+/* Left-side labels*/
+form table tbody tr td b {
+	font-size: 14px !important;
+	float:right;
+}
+
+form table tbody tr td {
+	padding-top: 5px;
+
+}
+
+/* Right side values */
+form table tbody tr td tt {
+	font-family: inherit !important;
+	font-size: 14px !important;
+}
+
+/* Header */
+
+h1 {
+	font-size: 24px;
+	background-color: #F5F5F5;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.synopsis {
+	font-size:24px;
+	font-family: Arial, sans-serif !important;
+	padding-top: 5px;
+	background-color: #F5F5F5;
+}
+
+tr.synopsis td tt{
+	width: 100%;
+	border-bottom: 1px solid black;
+	
+}
+
+tr.synopsis {
+	margin-bottom: 5px;
+}
+
+.dashboard {
+	font-weight: normal;
+	background-color: white;
+}
+
+/* CREATE */
+
+/* Item Descriptions */
+
+form table tbody tr td[valign="top"] {
+	text-align: right;
+}
+
+
+/* FOOTER */
+
+hr + small {
+	background: #3B73AF;
+	padding: 4px 10px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	position: fixed;
+	float: bottom;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+
+/* LOGIN PAGE */
+
+.login_header {
+	background-color: #205081;
+	color: #FFF;
+	font-size: 22px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	padding: 5px 0px;
+}
+
+.login_header span {
+	padding-left: 16px;
+}
+
+.login_form {
+	margin: 50px auto 0 auto;
+	width: 325px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	padding: 20px;
+	background: #FFF;
+}
+
+.login_button {
+	background: -webkit-linear-gradient(top,#4687CE 0,#3068A2 100%);
+	border-color: #486582;
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #205081;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 4px 10px;
+}
+
+.login_button:first-letter {
+	text-transform: capitalize;
+}
